@@ -1,0 +1,7 @@
+{
+  "name": "airquality",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

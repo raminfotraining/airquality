@@ -1,9 +1,22 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>intro</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <div class="slide">
+        <img src="../../../assets/images/slides/slide-1.png"/>
+      </div>
+    </ion-slide>
 
+    <ion-slide>
+      <img src="../../../assets/images/slides/slide-2.png"/>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="../../../assets/images/slides/slide-3.png"/>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="../../../assets/images/slides/slide-4.png"/>
+      <ion-button fill="clear">Continue <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
